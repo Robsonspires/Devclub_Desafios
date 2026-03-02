@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevClub - Desafio Jokenpô</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Desafio Jokenpô</h1>
+      <div class="buttons">
+        <button id="rock" onclick="playHuman('rock')">
+          &#x1F44A;&#x1F3FB;
+        </button>
+        <button id="paper" onclick="playHuman('paper')">
+          &#x270B;&#x1F3FB;
+        </button>
+        <button id="scissors" onclick="playHuman('scissors')">
+          &#x270C;&#x1F3FB;
+        </button>
+      </div>
+      <p class="result"></p>
+
+      <p class="score">Sua pontuação: <span>0</span></p>
+      <p class="computer-score">Pontuação do computador: <span>0</span></p>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
